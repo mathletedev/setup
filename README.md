@@ -1,4 +1,4 @@
-# setup
+# Setup
 
 > Steps to set up my Linux environment
 
