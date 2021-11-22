@@ -10,6 +10,13 @@ sudo apt install git fish neovim
 
 ## Neovim
 
+- Install vim-plug
+
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
 - Open `init.vim`
 
 ```
@@ -17,6 +24,19 @@ nvim ~/.config/nvim/init.vim
 ```
 
 - Copy `init.vim` from [dotfiles](https://github.com/mathletedev/dotfiles) into file
+
+- Save and source
+
+```
+:w
+:source %
+```
+
+- Install plugins
+
+```
+:PlugInstall
+```
 
 ## Fish
 
