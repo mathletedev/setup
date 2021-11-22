@@ -60,6 +60,8 @@ nvim ~/.config/fish/config.fish
 
 - Copy `config.fish` from [dotfiles](https://github.com/mathletedev/dotfiles) into file
 
+- To use fish as default shell, open `~/.bashrc` and insert `fish` at the end of file
+
 ## Node
 
 - Install Fisher
