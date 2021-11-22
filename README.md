@@ -87,3 +87,23 @@ nvm install latest
 ```bash
 set --universal nvm_default_version vx.x.x
 ```
+
+## Yarn
+
+- Install Yarn globally
+
+```
+sudo npm i -g yarn
+```
+
+- Enable emojis
+
+```
+yarn config set -- --emoji true
+```
+
+## Git
+
+- Include credentials for GitHub
+
+- Make an API key for password field
